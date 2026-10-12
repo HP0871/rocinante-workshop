@@ -1,0 +1,34 @@
+{
+  "name": "rocinante-workshop",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.cjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron .",
+    "package": "electron-builder --linux deb"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^44.7.0",
+    "electron-builder": "^26.15.3"
+  },
+  "build": {
+    "appId": "org.rocinante.workshop",
+    "productName": "Rocinante Workshop",
+    "files": [
+      "index.html",
+      "main.cjs"
+    ],
+    "linux": {
+      "category": "Development",
+      "target": [
+        "deb"
+      ],
+      "maintainer": "Rocinante Workshop <maintainer@example.org>"
+    }
+  },
+  "homepage": "https://example.org/rocinante-workshop"
+}
