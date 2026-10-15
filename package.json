@@ -20,7 +20,8 @@
     "productName": "Rocinante Workshop",
     "files": [
       "index.html",
-      "main.cjs"
+      "main.cjs",
+      "preload.cjs"
     ],
     "linux": {
       "category": "Development",
